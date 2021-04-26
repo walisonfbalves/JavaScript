@@ -1,3 +1,5 @@
+// Declarando uma variável
+
 var nome = "Walison";
 console.log ("Meu nome é " + nome);
 

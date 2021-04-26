@@ -1,3 +1,5 @@
+//Declarando uma variável
+
 var nome = "Walison"
 var nome = "Fernandes"
 
