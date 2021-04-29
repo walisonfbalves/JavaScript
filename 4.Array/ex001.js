@@ -16,3 +16,18 @@ var produtos = [
 
 
 var notas_aluno = [ 9, 8, 7, 9 ];
+
+var meses = [
+    "Janeiro",
+    "Fevereiro",
+    "Março",
+    "Abril",
+    "Maio",
+    "Junho",
+    "Julho",
+    "Agosto",
+    "Setembro",
+    "Outubro",
+    "Novembro",
+    "Dezembro"
+];

@@ -15,7 +15,7 @@ aprovado&&console.log("Parabéns");
 
 const nome = "Camila";
 
-//Aqui é verificado se o nome possui ao menos um caractere
+// Aqui é verificado se o nome possui ao menos um caractere
 // Retornar true se possuir e false caso contrário
 
 const nomeValido = nome.lenght > 0 && true;
