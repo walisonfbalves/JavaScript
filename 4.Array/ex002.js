@@ -1,3 +1,5 @@
+// Acessando elementos de Array
+
 // Como vimos, o array é utilizado para agrupar elementos dentro de uma variável. E para acessar cada elemento é necessário utilizar um índice, que funciona como uma posição numérica dentro do array
 
 var funcionarios = [
