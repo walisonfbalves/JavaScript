@@ -21,9 +21,12 @@ var numero_sorteado = Math.floor(Math.random() * tamanho_colecao); // ex. 0.9234
 
 // Math.random () retorna um número aleatório entre 0 e < 1
 // Math.floor () arredonda um número para aixo para o número inteiro mais próximo
+// O rsultado arrendondo é amarzenado. Dessa forma temos um número aleatório que pode ser um valor entre 0 e 9
 // o resultado é armazenado na varíavel numero_sorteado
 
 var curiosidade_escolhida = curiosidades_chuck_norris[numero_sorteado];
+
+// A varíavel numero_sorteado é utilizada como índice na coleção, o que nos permite acessar um objeto dentro do array.
 
 var titulo_curiosidade = curiosidade_escolhida.titulo;
 var conteudo_curiosidade = curiosidade_escolhida.conteudo;
