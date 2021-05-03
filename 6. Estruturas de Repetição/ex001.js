@@ -24,7 +24,8 @@ let contador = 0;
 
 console.log("Tabuada de multiplicação - Nº " + numero);
 
-while ( contador <= 10 ) {
+while ( contador <= 10 ) // Enquanto contador for menor ou igual a 10, o bloco de código ser
+{
 
     let resultado = numero * contador;
 
@@ -72,3 +73,26 @@ while ( contador <= parcelas_totais ) {
 // A taxa de juros no período de 5 mes(es) é de R$300,00
 
 //Independentemente de usar incremento, decremento ou outro recurso no script, uma coisa fundamental nas estruturas de repetição é que elas sejam finalizadas em algum momento. Por isso normalmente usamos um contador para essa finalidade.
+
+// Loop com Decremento
+
+let contador = 10;
+
+while ( contador > 0 ) {
+
+    console.log( contador );
+    contador--;
+
+}
+
+// 10
+// 9
+// 8
+// 7
+// 6
+// 5
+// 4
+// 3
+// 2
+// 1
+
