@@ -1,6 +1,6 @@
 // Inserindo e removendo um elemento no array
 
-// Método .push()
+// Método .push() > Adiciona elementos
 
 var diasDaSemana = [
     "Domingo",
@@ -13,7 +13,5 @@ var diasDaSemana = [
 
 diasDaSemana.push("Sábado");
 
-console.log(diasDaSemana)
+console.log(diasDaSemana);
 
-
-// Método .splice()
